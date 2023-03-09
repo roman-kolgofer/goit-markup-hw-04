@@ -432,11 +432,11 @@ button {
 
 .footer-container {
   display: flex;
-  gap: 120px;
 }
 
 .footer-webstudio {
   max-width: 264px;
+  margin-right: 120px;
 }
 
 .footer .logo {
