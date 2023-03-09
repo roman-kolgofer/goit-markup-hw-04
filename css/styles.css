@@ -170,6 +170,8 @@ button {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .hero-title {
@@ -336,7 +338,7 @@ button {
   height: 88px;
 }
 
-.customers-cont {
+.customers-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -347,8 +349,8 @@ button {
   border-radius: 4px;
 }
 
-.customers-cont:hover,
-.customers-cont:focus {
+.customers-link:hover,
+.customers-link:focus {
   border-color: var(--color-pressed-state);
   fill: var(--color-pressed-state);
 }
@@ -396,13 +398,6 @@ button {
 
 .project-card {
   flex-basis: calc((100% - 48px) / 3);
-  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-}
-
-.project-card:hover,
-.project-card:focus {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .project-card .section-subtitle {
@@ -411,6 +406,13 @@ button {
 
 .project-link {
   display: block;
+  box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
+.project-link:hover,
+.project-link:focus {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .project-content {
